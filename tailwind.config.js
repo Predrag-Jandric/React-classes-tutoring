@@ -3,6 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      textStroke: {
+        '1': '1px',
+        '2': '2px',
+      },
+      textStrokeColor: {
+        black: '#000',
+      },
       colors: {
         // solid colors
         pureWhite: "#ffffff",
@@ -14,8 +21,8 @@ export default {
         dark: "#2d3142",
 
         // primary colors
-        primary: "#ffc654",
-        primaryHover: "#FFD685",
+        primary: "#33C2FF",
+        primaryHover: "#0AB6FF",
       },
 
       // "Comic Sans MS" for testing
@@ -40,5 +47,19 @@ export default {
       xxl: "1536px",
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.text-stroke': {
+          'text-shadow': `
+            -1px -1px 0 #475569,  
+            1px -1px 0 #475569,
+            -1px 1px 0 #475569,
+            1px 1px 0 #475569
+          `,
+        },
+      };
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 };

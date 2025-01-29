@@ -24,7 +24,7 @@ export const faqMap = [
   {
     question: "Koliko će mi trebati vremena da mogu sam da napravim sajt?",
     answer:
-      "Za 3 meseca posvećenog rada, totalni početnik može napraviti statički web sajt sa nekim osnovnim interakcijama i postaviti ga uživo na internet. Uz moju pomoć, ovakav websajt vam može služiti kao digitalna vizit karta i može vas predstavljati u bilo kojoj sferi života, čak i van IT-ja, i pomoći vam da se istaknete od drugih. Ovakav projekat se ne naplaćuje dodatno, već ga zajedno pravimo kroz časove učeći, uz moje smernice i pomoć ako negde zapne.",
+      "Za 3 meseca posvećenog rada, totalni početnik može napraviti statički web sajt sa nekim osnovnim interakcijama i postaviti ga uživo na internet. Uz moju pomoć, ovakav websajt vam može služiti kao digitalna vizit karta i može vas predstavljati u bilo kojoj sferi života, čak i van IT-ja, i pomoći vam da se istaknete od drugih. Ovakav projekat se ne naplaćuje dodatno, već ga zajedno pravimo kroz časove učeći, uz moje smernice i pomoć gde god zatreba.",
   },
   {
     question: "Kakve ćemo projekte praviti?",
@@ -44,12 +44,12 @@ export const faqMap = [
   {
     question: "Koja je cena časova?",
     answer:
-      "Cena je prilagođena vama, što znači da je niska kada počinjemo od jednostavnih stvari, a blago raste kako prelazimo na naprednije teme. Ako se odlučite za paket časova koji plaćate odjednom, dobijate besplatne časove kao i mnoge druge bonuse.",
+      "Cena je prilagođena vama, što znači da je niska kada počinjemo od jednostavnih stvari, a blago rfaste kako prelazimo na naprednije teme. Ako se odlučite za paket časova koji plaćate odjednom, dobijate besplatne časove kao i mnoge druge bonuse.",
   },
   {
     question: "Zašto da izaberem baš vas?",
     answer:
-      "Posvećen sam pružanju vrednosti klijentu za uloženi novac, svojom sveobuhvatnom metodom rada. U svom prethodnom poslu sam takođe bio mentor, sa zadatkom da klijente dovedem do rezultata, a ne samo da iznajmim svoje vreme. Nudim podršku i van časova, ako naiđete na neki problem. Dajem domaće zadatke kroz koje usavršavate stečena znanja i uvodim vas u open-source zajednicu, gde ćete imati priliku da sarađujete sa programerima širom sveta, praveći aplikacije. Steći ćete iskustvo u menadžmentu aplikacije, online sastancima, prezentacijama, timskom donošenju odluka, komunikaciji sa dizajnerima i stejkholderima. Ovo je najnapredniji nivo, na volonterskoj bazi, gde ni jedna strana ne zarađuje od sajta napravljenog na ovaj način.",
+      "Posvećen sam pružanju vrednosti klijentu za uloženi novac, svojom sveobuhvatnom metodom rada. U svom prethodnom poslu sam takođe bio mentor, sa zadatkom da klijente dovedem do rezultata, a ne samo da iznajmim svoje vreme. Nudim podršku i van časova, ako naiđete na neki problem. Dajem domaće zadatke kroz koje usavršavate stečena znanja i uvodim vas u open-source zajednicu, gde ćete imati priliku da sarađujete sa programerima širom sveta, praveći aplikacije. Steći ćete iskustvo u menadžmentu aplikacije, online sastancima, prezentacijama, timskom donošenju odluka, komunikaciji sa dizajnerima i stejkholderima.",
   },
 ];
 
