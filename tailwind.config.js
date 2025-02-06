@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       textStroke: {
-        '1': '1px',
-        '2': '2px',
+        1: "1px",
+        2: "2px",
       },
       textStrokeColor: {
-        black: '#000',
+        black: "#000",
       },
       colors: {
         // solid colors
@@ -50,8 +50,8 @@ export default {
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
-        '.text-stroke': {
-          'text-shadow': `
+        ".text-stroke": {
+          "text-shadow": `
             -1px -1px 0 #475569,  
             1px -1px 0 #475569,
             -1px 1px 0 #475569,
@@ -59,7 +59,7 @@ export default {
           `,
         },
       };
-      addUtilities(newUtilities, ['responsive', 'hover']);
+      addUtilities(newUtilities, ["responsive", "hover"]);
     },
   ],
 };

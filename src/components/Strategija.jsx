@@ -1,6 +1,6 @@
-import cas from "/assets/strategija/cas.png";
-import plan from "/assets/strategija/plan.png";
-import raketa from "/assets/strategija/raketa.png";
+import cas2 from "/assets/strategija/cas2.png";
+import plan2 from "/assets/strategija/plan2.png";
+import raketa2 from "/assets/strategija/raketa2.png";
 
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import {
@@ -31,11 +31,7 @@ export default function Strategija() {
         >
           <div className="flex flex-col items-center justify-center gap-3 w-fit">
             <p className="text-sm font-semibold italic">Korak 1</p>
-            <img
-              className="size-32 object-contain"
-              src={cas}
-              alt="missing"
-            />
+            <img className="size-32 object-contain" src={cas2} alt="missing" />
             <p className="text-body">
               Zakažemo probni <br /> čas upoznavanja
             </p>
@@ -65,11 +61,7 @@ export default function Strategija() {
         >
           <div className="flex flex-col items-center justify-center gap-3  w-fit">
             <p className="text-sm font-semibold italic">Korak 2</p>
-            <img
-              className="size-32 object-contain"
-              src={plan}
-              alt="missing"
-            />
+            <img className="size-32 object-contain" src={plan2} alt="missing" />
             <p className="text-body">
               Napravimo plan <br /> šta učimo
             </p>
@@ -101,7 +93,7 @@ export default function Strategija() {
             <p className="text-sm font-semibold italic">Korak 3</p>
             <img
               className="size-32 object-contain"
-              src={raketa}
+              src={raketa2}
               alt="missing"
             />
             <p className="text-body w-24">Krećemo da radimo</p>

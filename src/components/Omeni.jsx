@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { generalVariants } from "../utils/animations.js";
-// import Button from "./Button.jsx";
 import devPhoto from "/assets/omeni/devPhoto.jpg";
 
 export default function About() {
@@ -28,7 +27,7 @@ export default function About() {
             <p className="text-body">
               Bavim se programiranjem već 3 godine, i fokusiram se na razvoj
               modernih web aplikacija. Takođe imam iskustva u razvijanju
-              aplikacija u timskom okruženju na open source projektima gde sam
+              sajtova u timskom okruženju na open source projektima gde sam
               bio lider tima.
               <br />
               <br />
